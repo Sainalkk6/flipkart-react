@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "inter-semi";
+    src: url("/src/assets/font/Inter-SemiBold.woff2");
+}
+
+@font-face {
+    font-family: "inter-reg";
+    src: url("/src/assets/font/Inter-Regular.woff2");
+}
+
+@font-face {
+    font-family: "inter-italic";
+    src: url("/src/assets/font/Inter-Italic.woff2");
+}
+
+@font-face {
+    font-family: "inter-semi-italic";
+    src: url("/src/assets/font/Inter-SemiBoldItalic.woff2");
+}
+
+
+.span{
+    font-family:  'Segoe UI Symbol';
+}
